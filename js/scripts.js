@@ -5,7 +5,8 @@ function getTriangleArea(a, h) {
 	return a*h/2;
 }; 
 
-console.log ( getTriangleArea(10, 6) );
+console.log ( "Pole trojkata wynosi " + getTriangleArea(10, 6) );
+
 console.log ( getTriangleArea(-3, 6) );
 console.log ( getTriangleArea(3, 0) );
 
